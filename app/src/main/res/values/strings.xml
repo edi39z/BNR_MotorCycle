@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">BNR_MotorCycle</string>
+    <string name="nmax_description">
+        Yamaha Nmax tersedia dalam pilihan mesin Petrol di Indonesia.
+        Scooter baru dari Yamaha hadir dalam 2 varian.
+    </string>
+    <string name="xsr_description">
+        Yamaha XSR 155 adalah motor sport klasik modern yang dilengkapi dengan teknologi terbaru.
+    </string>
+    <string name="thunder_description">
+        Suzuki Thunder 150 memiliki desain tangguh dan performa yang kuat untuk perjalanan jauh.
+    </string>
+    <string name="vixion_description">
+        Yamaha Vixion 150 merupakan motor sport populer dengan performa dan desain stylish.
+    </string>
+    <string name="sonic_description">
+        Honda Sonic adalah motor bebek sport yang cepat dan tangguh, cocok untuk pengguna muda.
+    </string>
+    <string name="gxr_description">
+        Suzuki GXR adalah motor sport dengan mesin besar dan performa tinggi untuk pecinta kecepatan.
+    </string>
 </resources>
