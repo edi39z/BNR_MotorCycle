@@ -7,6 +7,9 @@ BNR MotorCycle adalah aplikasi katalog sepeda motor yang dirancang untuk memberi
 
 Credit:freepik :https://www.freepik.com/, wikipedia : https://www.wikipedia.org
 
+Untuk video dan Apk saya buat pada Google Drive
+https://drive.google.com/drive/folders/1lu0s4jBjT7VN2cTbidXQvwCfp0zoDSaG?usp=drive_link
+
 
 
 ![image](https://github.com/user-attachments/assets/f0259209-1863-40d1-a58d-daf781db5d36)
