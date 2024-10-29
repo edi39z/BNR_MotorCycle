@@ -1,0 +1,119 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textMotorcycleName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+
+            <ImageView
+                android:id="@+id/imageMotorcycle"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="8dp"/>
+
+
+            <TextView
+                android:id="@+id/textMotorcycleDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spesifikasi Utama:"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="3"
+                android:padding="8dp">
+
+                <TextView
+                    android:text="Kapasitas"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="start"
+                    android:padding="8dp"/>
+                <TextView
+                    android:id="@+id/textSpecCapacity"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="end"
+                    android:padding="8dp"/>
+
+                <TextView
+                    android:text="Tenaga Maksimal"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="start"
+                    android:padding="8dp"/>
+                <TextView
+                    android:id="@+id/textSpecPower"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="end"
+                    android:padding="8dp"/>
+
+                <TextView
+                    android:text="Opsi Start"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="start"
+                    android:padding="8dp"/>
+                <TextView
+                    android:id="@+id/textSpecStart"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="end"
+                    android:padding="8dp"/>
+
+                <TextView
+                    android:text="Kategori"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="start"
+                    android:padding="8dp"/>
+                <TextView
+                    android:id="@+id/textSpecCategory"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="end"
+                    android:padding="8dp"/>
+
+                <TextView
+                    android:text="Rem"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="start"
+                    android:padding="8dp"/>
+                <TextView
+                    android:id="@+id/textSpecBrake"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="end"
+                    android:padding="8dp"/>
+
+                <TextView
+                    android:text="Konfigurasi Katup"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="start"
+                    android:padding="8dp"/>
+                <TextView
+                    android:id="@+id/textSpecValve"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="end"
+                    android:padding="8dp"/>
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

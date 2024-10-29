@@ -1,22 +1,27 @@
 <resources>
     <string name="app_name">BNR_MotorCycle</string>
+
     <string name="nmax_description">
-        Yamaha Nmax tersedia dalam pilihan mesin Petrol di Indonesia.
-        Scooter baru dari Yamaha hadir dalam 2 varian.
+        Yamaha Nmax tersedia dalam pilihan mesin bensin di Indonesia. Scooter baru dari Yamaha hadir dalam 2 varian, memberikan kenyamanan berkendara dengan desain modern dan fitur canggih. Motor ini sangat cocok untuk perjalanan dalam kota maupun jarak jauh.
     </string>
+
     <string name="xsr_description">
-        Yamaha XSR 155 adalah motor sport klasik modern yang dilengkapi dengan teknologi terbaru.
+        Yamaha XSR 155 adalah motor sport klasik modern yang dilengkapi dengan teknologi terbaru. Menggabungkan gaya retro dengan performa modern, XSR 155 menjadi pilihan utama bagi pengendara yang menginginkan tampilan klasik tanpa mengorbankan performa.
     </string>
+
     <string name="thunder_description">
-        Suzuki Thunder 150 memiliki desain tangguh dan performa yang kuat untuk perjalanan jauh.
+        Suzuki Thunder 150 memiliki desain tangguh dan performa yang kuat untuk perjalanan jauh. Dengan mesin 150 cc yang handal, motor ini ideal untuk pengendara yang mencari kenyamanan dan stabilitas dalam perjalanan jarak jauh.
     </string>
+
     <string name="vixion_description">
-        Yamaha Vixion 150 merupakan motor sport populer dengan performa dan desain stylish.
+        Yamaha Vixion 150 merupakan motor sport populer dengan performa dan desain stylish. Dilengkapi dengan mesin yang bertenaga dan fitur modern, Vixion cocok untuk penggunaan harian maupun berkendara dengan gaya.
     </string>
+
     <string name="sonic_description">
-        Honda Sonic adalah motor bebek sport yang cepat dan tangguh, cocok untuk pengguna muda.
+        Honda Sonic adalah motor bebek sport yang cepat dan tangguh, cocok untuk pengguna muda yang mencari motor dengan akselerasi tinggi. Desainnya yang sporty dan dinamis membuatnya pilihan tepat untuk pengendara yang ingin tampil beda.
     </string>
+
     <string name="gxr_description">
-        Suzuki GXR adalah motor sport dengan mesin besar dan performa tinggi untuk pecinta kecepatan.
+        Suzuki GXR adalah motor sport dengan mesin besar dan performa tinggi untuk pecinta kecepatan. Dengan desain aerodinamis dan fitur-fitur canggih, motor ini memberikan pengalaman berkendara yang maksimal untuk mereka yang menyukai adrenalin.
     </string>
 </resources>

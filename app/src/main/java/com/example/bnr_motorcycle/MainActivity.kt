@@ -1,10 +1,9 @@
+package com.example.bnr_motorcycle
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.bnr_motorcycle.Motorcycle
-import com.example.bnr_motorcycle.MotorcycleAdapter
-import com.example.bnr_motorcycle.R
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -12,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Daftar motor
+
         val motorcycles = listOf(
             Motorcycle("Honda NMAX 155", R.drawable.nmax),
             Motorcycle("Yamaha XSR 155", R.drawable.xsr),
@@ -23,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             Motorcycle("Suzuki GXS 150", R.drawable.gxs)
         )
 
-        // Atur RecyclerView
+
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter = MotorcycleAdapter(motorcycles)

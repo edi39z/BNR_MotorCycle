@@ -1,11 +1,11 @@
-package com.example.motorbikeapp
+package com.example.bnr_motorcycle
+
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.example.bnr_motorcycle.DetailActivity
-import com.example.bnr_motorcycle.R
+
 
 class GetActivity : AppCompatActivity() {
 
@@ -18,7 +18,7 @@ class GetActivity : AppCompatActivity() {
 
 
         getStartedButton.setOnClickListener {
-            val intent = Intent(this, DetailActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }

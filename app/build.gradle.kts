@@ -1,3 +1,5 @@
+
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -6,6 +8,12 @@ plugins {
 android {
     namespace = "com.example.bnr_motorcycle"
     compileSdk = 34
+
+    buildFeatures {
+        viewBinding = true
+        dataBinding = true
+    }
+
 
     defaultConfig {
         applicationId = "com.example.bnr_motorcycle"

@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import com.example.motorbikeapp.GetActivity
+
 
 @SuppressLint("CustomSplashScreen")
 class LoadingActivity : AppCompatActivity() {
